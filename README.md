@@ -36,19 +36,70 @@ Switch ON the main switch
 If the output is 1, then the led glows.
 ### 
 Program:
+
 /*
 Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
-*/
-Logic symbol & Truthtable
-RTL realization
 
+Developed by: Yuvaraj joshitha
+
+RegisterNumber: 23011447 
+
+*/
+HALF ADDER:
+```
+module halfadder(a,b,s,c);
+input a,b;
+output s,c;
+xor(s,a,b);
+and(c,a,b);
+endmodule
+```
+FULL ADDER:
+```
+module halfadder(a,b,s,c);
+input a,b;
+output s,c;
+xor(s,a,b);
+and(c,a,b);
+endmodule
+```
 ### Output:
-### RTL
+Logic symbol & Truthtable
+
+HALF ADDER:
+
+![Screenshot 2023-12-01 143104](https://github.com/Joshitha-YUVARAJ/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145742770/bb046b81-6b63-49db-baff-56b9820e22df)
+
+
+FULL ADDER:
+
+
+
+![Screenshot 2023-12-01 143140](https://github.com/Joshitha-YUVARAJ/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145742770/f042cd09-f7ae-4e90-a9a0-14fcfdfc59ce)
+
+
+
+### RTL realization
+
+HALF ADDER:
+
+![Screenshot 2023-12-01 134022](https://github.com/Joshitha-YUVARAJ/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145742770/d867ddab-0692-438b-82fc-17a772c4548e)
+
+FULL ADDER:
+
+![Screenshot 2023-12-01 140121](https://github.com/Joshitha-YUVARAJ/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145742770/1d610f10-db73-4b06-b91f-42d2a265c529)
+
+
 ### TIMING DIAGRAM
 
+HALF ADDER:
 
-### TRUTH TABLE 
+![Screenshot 2023-12-01 135053](https://github.com/Joshitha-YUVARAJ/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145742770/e6b6171d-c066-4d36-9647-943c8efa9fbe)
+
+FULL ADDER:
+![Screenshot 2023-12-01 140840](https://github.com/Joshitha-YUVARAJ/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145742770/ea5e0bf9-a1f1-4747-8c53-19ceb730d67b)
+
 
 ### Result:
+
+Thus ,half adder and full adder circuit is designed to verify its truth table in quartus using verilog programming
